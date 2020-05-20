@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ViewController.h"
 
 FOUNDATION_EXPORT double NetToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char NetToolVersionString[];
