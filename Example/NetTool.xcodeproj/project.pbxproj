@@ -62,11 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8F9899B5F73BDB46B287855 /* NetTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetTool.podspec; path = ../NetTool.podspec; sourceTree = "<group>"; };
+		A8F9899B5F73BDB46B287855 /* NetTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetTool.podspec; path = ../NetTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C24538957B0C94DC99EE1632 /* Pods-NetTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetTool_Tests/Pods-NetTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EAA0266B763BB9EE249FE7C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EAA0266B763BB9EE249FE7C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EDA62728F1F2AB206183FD2C /* Pods_NetTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F160CF6AB471D2F063CD219E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F160CF6AB471D2F063CD219E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				4D68315AD231D222B0747512 /* Pods-NetTool_Tests.debug.xcconfig */,
 				C24538957B0C94DC99EE1632 /* Pods-NetTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
