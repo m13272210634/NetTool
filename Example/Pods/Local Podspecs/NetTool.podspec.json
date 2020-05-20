@@ -18,8 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "NetTool",
-    "NetTool/Classes/*.{h,m}"
-  ]
+  "source_files": "NetTool/*.{h,m}"
 }
