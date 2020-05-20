@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NetTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NetTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  NetTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NetTool: 08a27ccbbfb6aa22be50e17849da184fe0bc328b
+
+PODFILE CHECKSUM: 311e9bb119c1c256969fe53f13b959823c9eb353
+
+COCOAPODS: 1.8.3
